@@ -11,7 +11,7 @@ module MeiliSearch
 
     DEFAULT_OPTIONS = {
       timeout: 1,
-      max_retries: 0,
+      max_retries: 2,
       convert_body?: true
     }.freeze
 
